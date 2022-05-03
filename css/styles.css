@@ -1,0 +1,43 @@
+html, body, h1, h2, h3, h4, h5, h6, p, div {
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1, p {
+    color: #00FF9F;
+}
+
+.glowing-logo {
+    color: white;
+    margin: 2%;
+    font-size: 5vw;
+    text-shadow: 0 0 10px #7bffcd, 0 0 20px #9dffd9, 0 0 30px #00FF9F, 0 0 40px #00ff9ddc, 0 0 50px #00e18b, 0 0 60px #00d986, 0 0 70px #00df89;
+}
+
+.flex-container {
+    display: flex;
+    width: 100;
+    justify-content: center;
+}
+
+.tictactoe-container {
+    display: grid;
+    grid-template-columns: 12vw 12vw 12vw;
+    grid-template-rows: 12vw 12vw 12vw;
+}
+
+.tictactoe-grid {
+    border: double 4px #BD00FF;
+    text-align: center;
+}
+
+.character {
+    color: #00B8FF;
+    font-size: 11vw;
+    text-shadow: 0 0 10px #80dbff, 0 0 20px #62d3ff, 0 0 30px #47cbff, 0 0 40px #22c1ff;
+}
