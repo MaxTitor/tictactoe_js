@@ -36,8 +36,20 @@ h1, p {
     text-align: center;
 }
 
-.character {
+.player {
     color: #00B8FF;
     font-size: 11vw;
     text-shadow: 0 0 10px #80dbff, 0 0 20px #62d3ff, 0 0 30px #47cbff, 0 0 40px #22c1ff;
+    padding-left: 8%;
+}
+
+.blink {
+    color: black;
+    text-shadow: none;
+    font-size: 0;
+}
+
+.cpu-toggler {
+    margin: 1% 0; 
+    font-size: 1.3vw;
 }
